@@ -64,13 +64,9 @@ body {
 }
 
 .button {
-    color: var(--color-1);
     cursor: pointer;
     text-decoration: none;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
 }
-
 
 .link:hover,
 .link:focus,
@@ -86,15 +82,19 @@ body {
 }
 
 .hero-button {
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-button {
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
     background-color: #F5F4FA;
 }
 
